@@ -5,9 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  &-brand {
-    &__img {
-      max-height: 30px;
+  &-item {
+    img {
+      &.avatar {
+        max-height: none;
+      }
     }
   }
 }
