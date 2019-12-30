@@ -1,0 +1,13 @@
+.navbar {
+  background-color: $color-bg;
+  box-shadow: $box-shadow-header;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-brand {
+    &__img {
+      max-height: 30px;
+    }
+  }
+}
