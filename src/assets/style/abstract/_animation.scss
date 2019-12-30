@@ -1,0 +1,25 @@
+.slide-enter {
+  transform: translateY(-50%);
+  opacity: 0 !important;
+}
+.slide-enter-to {
+  transform: translateY(0);
+  opacity: 0.9 !important;
+}
+.slide-enter-active {
+  position: absolute;
+}
+
+.slide-leave {
+  transform: translateY(0);
+  opacity: 0.9 !important;
+}
+.slide-leave-to {
+  transform: translateY(50%);
+  opacity: 0 !important;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.4s ease-in-out;
+}

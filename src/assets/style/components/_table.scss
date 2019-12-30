@@ -1,7 +1,33 @@
 table.table {
   margin: auto;
+  @media (min-width: $screen-sm) {
+    min-width: $screen-xs;
+  }
   td {
     vertical-align: middle;
   }
 }
 
+.pagination {
+  ul.pagination-list {
+    li {
+      button.pagination-link {
+        background-color: $color-white !important;
+        border: 1px solid $color-accent-light;
+        &.is-current {
+          background-color: $color-accent !important;
+        }
+      }
+    }
+  }
+  &-next {
+    margin-left: 1.5rem;
+  }
+  &-previous {
+    margin-right: 1.5rem;
+  }
+  &-next,
+  &-previous {
+    border: 1px solid $color-accent-light;
+  }
+}

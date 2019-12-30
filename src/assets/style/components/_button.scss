@@ -1,10 +1,13 @@
 .button {
-  span.icon {
-    font-size: 1.5rem;
-    height: 1.3rem;
-    width: 1.3rem;
-    i {
-      font-style: normal;
+  &--icon {
+    height: auto;
+    span.icon {
+      font-size: 1.3rem;
+      height: 1.3rem;
+      width: 1.3rem;
+      i {
+        font-style: normal;
+      }
     }
   }
 }

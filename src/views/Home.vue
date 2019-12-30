@@ -1,7 +1,6 @@
 <template>
   <div class="home-page">
     <div class="container">
-      <!-- <h2>Customers</h2> -->
       <customers-table url="users" />
     </div>
   </div>

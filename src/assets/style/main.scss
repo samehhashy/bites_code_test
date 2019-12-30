@@ -1,12 +1,14 @@
 @import './abstract/variables';
 @import './abstract/helpers';
 @import './abstract/base';
+@import './abstract/animation';
 
 @import './vendors/vendors';
 
 @import './pages/home';
 
 @import './components/button';
+@import './components/modal';
 @import './components/table';
 
 @import './layout/header';
